@@ -1,9 +1,11 @@
-package com.hb.androidcontrols;
+package com.hb.androidcontrols.view.activity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.hb.androidcontrols.R;
+import com.hb.androidcontrols.core.BaseActivity;
+
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
