@@ -31,14 +31,25 @@
             android:layout_height="?android:attr/actionBarSize"
             android:layout_alignParentLeft="true"
             android:background="@null"
-            android:src="@drawable/button_arrow_left"
-            android:visibility="gone" />
+            android:src="@drawable/button_arrow_left" />
 
     </RelativeLayout>
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/controlsRecyclerView"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:background="#FFE75764">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/AVLoadingIndicatorRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:padding="2dp"
+            android:scrollbarStyle="insideOverlay"
+            android:scrollbars="vertical" />
+
+    </LinearLayout>
 
 </LinearLayout>
