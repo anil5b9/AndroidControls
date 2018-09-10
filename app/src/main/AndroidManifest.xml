@@ -26,8 +26,19 @@
             android:name=".view.activity.AVLoadingIndicatorViewActivity"
             android:screenOrientation="portrait" />
 
+        // Activity Indicator --> AV Loading Indicator View
         <activity
             android:name=".view.activity.AVLoadingIndicatorActivity"
+            android:screenOrientation="portrait" />
+
+        // Activity Indicator --> Spots Progress Dialog
+        <activity
+            android:name=".view.activity.SpotsProgressDialogActivity"
+            android:screenOrientation="portrait" />
+
+        // Activity Indicator --> Geometric Progress View
+        <activity
+            android:name=".view.activity.GeometricProgressViewActivity"
             android:screenOrientation="portrait" />
 
     </application>

@@ -16,7 +16,6 @@ import com.hb.androidcontrols.R;
 import com.hb.androidcontrols.adapter.ControlsAdapter;
 import com.hb.androidcontrols.core.BaseFragment;
 import com.hb.androidcontrols.model.ControlsModelView;
-import com.hb.androidcontrols.view.activity.AVLoadingIndicatorViewActivity;
 
 import java.util.List;
 
@@ -87,16 +86,17 @@ public class FragmentControlsList extends BaseFragment implements ControlsAdapte
             mFragmentControlsList.setArguments(mBundle);
             push(mFragmentControlsList, true, true);
         } else {
-            switch (mControlsModelView.screenName) {
 
-                case "NVActivityIndicatorVc":
-                    Intent mIntent = new Intent(mActivity, AVLoadingIndicatorViewActivity.class);
-                    mIntent.putExtra("ControlData", mControlsModelView);
-                    startActivity(mIntent);
-                    mActivity.overridePendingTransition(R.anim.activity_enter, R.anim.activity_exit);
-                    break;
-
+            try {
+                Class activityClass = Class.forName("com.hb.androidcontrols.view.activity." + mControlsModelView.screenName);
+                Intent mIntent = new Intent(mActivity, activityClass);
+                mIntent.putExtra("ControlData", mControlsModelView);
+                startActivity(mIntent);
+                mActivity.overridePendingTransition(R.anim.activity_enter, R.anim.activity_exit);
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
             }
+
         }
 
     }

@@ -112,9 +112,4 @@ public class AVLoadingIndicatorViewActivity extends BaseActivity {
             "com.wang.avi.sample.MyCustomIndicator"
     };
 
-    @Override
-    public void finish() {
-        super.finish();
-        overridePendingTransition(R.anim.activity_left_in, R.anim.activity_right_out);
-    }
 }

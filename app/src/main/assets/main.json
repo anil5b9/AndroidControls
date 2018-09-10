@@ -35,12 +35,16 @@
       "ScreenName": "MainListVc",
       "data": [
         {
-          "Title": "NVActivityIndicatorView",
-          "ScreenName": "NVActivityIndicatorVc"
+          "Title": "AV Loading Indicator View",
+          "ScreenName": "AVLoadingIndicatorViewActivity"
         },
         {
-          "Title": "SSSpinnerButton",
-          "ScreenName": "SSSpinnerButtonVc"
+          "Title": "Spots Progress Dialog",
+          "ScreenName": "SpotsProgressDialogActivity"
+        },
+        {
+          "Title": "Geometric Progress View",
+          "ScreenName": "GeometricProgressViewActivity"
         }
       ]
     },

@@ -50,4 +50,10 @@ public class BaseActivity extends AppCompatActivity {
         getSupportFragmentManager().popBackStackImmediate(null, FragmentManager.POP_BACK_STACK_INCLUSIVE);
     }
 
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.activity_left_in, R.anim.activity_right_out);
+    }
+
 }
