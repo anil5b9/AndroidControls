@@ -1,5 +1,6 @@
 package com.hb.androidcontrols.view.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.GridLayoutManager;
@@ -52,9 +53,9 @@ public class AVLoadingIndicatorViewActivity extends BaseActivity {
                 holder.itemLayout.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                       /* Intent intent=new Intent(AVLoadingIndicatorViewActivity.this,IndicatorActivity.class);
+                        Intent intent=new Intent(AVLoadingIndicatorViewActivity.this,AVLoadingIndicatorActivity.class);
                         intent.putExtra("indicator",INDICATORS[position]);
-                        startActivity(intent);*/
+                        startActivity(intent);
                     }
                 });
             }
@@ -111,4 +112,9 @@ public class AVLoadingIndicatorViewActivity extends BaseActivity {
             "com.wang.avi.sample.MyCustomIndicator"
     };
 
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.activity_left_in, R.anim.activity_right_out);
+    }
 }

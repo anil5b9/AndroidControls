@@ -1,116 +1,116 @@
-
-[
- {
- "Title" : "Progress Bar",
- "ScreenName":  "MainListVc",
- "data" : [
-           {
-           "Title" : "KDCircularProgress",
-           "ScreenName":  "KDCircularProgressVc"
-           },
-           {
-           "Title" : "HGCircularSlider",
-           "ScreenName":  "MainListVc",
-           "data" : [
-                     {
-                     "Title" : "CircularSliderVC",
-                     "ScreenName":  "CircularSliderVc"
-                     },
-                     {
-                     "Title" : "RangeCircularSlider",
-                     "ScreenName":  "RangeCircularSliderVc"
-                     },
-                     {
-                     "Title" : "MidPointCircularSlider",
-                     "ScreenName":  "MidPointCircularSliderVc"
-                     }
-                     ]
-           }
-           ]
- },
- {
- "Title" : "Activity Indicator",
- "ScreenName":  "MainListVc",
- "data" : [
-           {
-           "Title" : "NVActivityIndicatorView",
-           "ScreenName":  "NVActivityIndicatorVc"
-           },
-           {
-           "Title" : "SSSpinnerButton",
-           "ScreenName":  "SSSpinnerButtonVc"
-           }
-           ]
- 
- },
- {
- "Title" : "UITabbar",
- "ScreenName" : "MainListVc",
- "data" : [
-           {
-           "Title" : "Animated TabBar",
-           "ScreenName":  "AnimatedTabbarVc"
-           },
-           {
-           "Title" : "MinimalTabBar",
-           "ScreenName":  "MinimalTabVc"
-           }
-           ]
-
- },
- {
- "Title" : "CalendarView",
- "ScreenName" : "MainListVc",
- "data" : [
-           {
-           "Title" : "CalendarLayoutsDemonstration",
-           "ScreenName":  "CalendarLayoutsDemonstrationVc"
-           },
-           {
-           "Title" : "TestingResizing/Orientation",
-           "ScreenName":  "ResizingOrientaionVc"
-           },
-           {
-           "Title" : "PersianCalendar",
-           "ScreenName":  "PersianCalendarVc"
-           },
-           {
-           "Title" : "RangeSelection",
-           "ScreenName":  "RangeSelectionVc"
-           }
-           ]
- },
- {
- "Title" : "Image Loading",
- "ScreenName" : "MainListVc",
- "data" : [
-           {
-           "Title" : "FaceAware",
-           "ScreenName":  "FaceAwareVc"
-           },
-           {
-           "Title" : "KingFisher",
-           "ScreenName":  "KingFisherVc"
-           }
-           ]
- },
- {
- "Title" : "Paper Onboarding",
- "ScreenName" : "PaperOnboardingVc"
- },
- {
- "Title" : "Pull To Refresh",
- "ScreenName" : "MainListVc",
- "data" : [
-           {
-           "Title" : "PullToMakeSoup",
-           "ScreenName":  "PullToMakeSoupVc"
-           },
-           {
-           "Title" : "PullToBounce",
-           "ScreenName":  "PullToMakeSoupVc"
-           }
-           ]
- }
- 
- ]
+{
+  "Title": "Controls",
+  "ScreenName": "MainListVc",
+  "data": [
+    {
+      "Title": "Progress Bar",
+      "ScreenName": "MainListVc",
+      "data": [
+        {
+          "Title": "KDCircularProgress",
+          "ScreenName": "KDCircularProgressVc"
+        },
+        {
+          "Title": "HGCircularSlider",
+          "ScreenName": "MainListVc",
+          "data": [
+            {
+              "Title": "CircularSliderVC",
+              "ScreenName": "CircularSliderVc"
+            },
+            {
+              "Title": "RangeCircularSlider",
+              "ScreenName": "RangeCircularSliderVc"
+            },
+            {
+              "Title": "MidPointCircularSlider",
+              "ScreenName": "MidPointCircularSliderVc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Title": "Activity Indicator",
+      "ScreenName": "MainListVc",
+      "data": [
+        {
+          "Title": "NVActivityIndicatorView",
+          "ScreenName": "NVActivityIndicatorVc"
+        },
+        {
+          "Title": "SSSpinnerButton",
+          "ScreenName": "SSSpinnerButtonVc"
+        }
+      ]
+    },
+    {
+      "Title": "UITabbar",
+      "ScreenName": "MainListVc",
+      "data": [
+        {
+          "Title": "Animated TabBar",
+          "ScreenName": "AnimatedTabbarVc"
+        },
+        {
+          "Title": "MinimalTabBar",
+          "ScreenName": "MinimalTabVc"
+        }
+      ]
+    },
+    {
+      "Title": "CalendarView",
+      "ScreenName": "MainListVc",
+      "data": [
+        {
+          "Title": "CalendarLayoutsDemonstration",
+          "ScreenName": "CalendarLayoutsDemonstrationVc"
+        },
+        {
+          "Title": "TestingResizing/Orientation",
+          "ScreenName": "ResizingOrientaionVc"
+        },
+        {
+          "Title": "PersianCalendar",
+          "ScreenName": "PersianCalendarVc"
+        },
+        {
+          "Title": "RangeSelection",
+          "ScreenName": "RangeSelectionVc"
+        }
+      ]
+    },
+    {
+      "Title": "Image Loading",
+      "ScreenName": "MainListVc",
+      "data": [
+        {
+          "Title": "FaceAware",
+          "ScreenName": "FaceAwareVc"
+        },
+        {
+          "Title": "KingFisher",
+          "ScreenName": "KingFisherVc"
+        }
+      ]
+    },
+    {
+      "Title": "Paper Onboarding",
+      "ScreenName": "PaperOnboardingVc"
+    },
+    {
+      "Title": "Pull To Refresh",
+      "ScreenName": "MainListVc",
+      "data": [
+        {
+          "Title": "PullToMakeSoup",
+          "ScreenName": "PullToMakeSoupVc"
+        },
+        {
+          "Title": "PullToBounce",
+          "ScreenName": "PullToMakeSoupVc"
+        }
+      ]
+    }
+  ]
+}
