@@ -12,6 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity
             android:name=".view.activity.MainControlsListActivity"
             android:screenOrientation="portrait">
@@ -22,23 +23,61 @@
             </intent-filter>
         </activity>
 
+        <!--Activity Indicator - AV Loading Indicator View-->
+        <activity
+            android:name=".view.activity.AVLoadingIndicatorActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".view.activity.AVLoadingIndicatorViewActivity"
             android:screenOrientation="portrait" />
 
-        // Activity Indicator --> AV Loading Indicator View
-        <activity
-            android:name=".view.activity.AVLoadingIndicatorActivity"
-            android:screenOrientation="portrait" />
-
-        // Activity Indicator --> Spots Progress Dialog
+        <!-- Activity Indicator - Spots Progress Dialog-->
         <activity
             android:name=".view.activity.SpotsProgressDialogActivity"
             android:screenOrientation="portrait" />
 
-        // Activity Indicator --> Geometric Progress View
+        <!-- Activity Indicator - Geometric Progress View-->
         <activity
             android:name=".view.activity.GeometricProgressViewActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- Progress Bar - Arc Progress Stack View-->
+        <activity
+            android:name=".view.activity.ArcProgressStackViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.activity.ArcProgressStackViewPresentationActivity"
+            android:screenOrientation="sensorLandscape" />
+
+        <!-- Progress Bar - Circle Alarm Timer View-->
+        <activity
+            android:name=".view.activity.CircleAlarmTimerViewActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- Empty Screens - LoadSir-->
+        <activity
+            android:name=".view.activity.EmptyScreensLoadSir_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.loadsir.target.NormalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.loadsir.target.ConvertorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.loadsir.target.FragmentSingleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.loadsir.target.ViewTargetActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.loadsir.target.MultiFragmentWithViewPagerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.loadsir.target.MultiFragmentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.loadsir.target.PlaceholderActivity"
             android:screenOrientation="portrait" />
 
     </application>

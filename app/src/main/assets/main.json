@@ -7,26 +7,12 @@
       "ScreenName": "MainListVc",
       "data": [
         {
-          "Title": "KDCircularProgress",
-          "ScreenName": "KDCircularProgressVc"
+          "Title": "Arc Progress Stack View",
+          "ScreenName": "ArcProgressStackViewActivity"
         },
         {
-          "Title": "HGCircularSlider",
-          "ScreenName": "MainListVc",
-          "data": [
-            {
-              "Title": "CircularSliderVC",
-              "ScreenName": "CircularSliderVc"
-            },
-            {
-              "Title": "RangeCircularSlider",
-              "ScreenName": "RangeCircularSliderVc"
-            },
-            {
-              "Title": "MidPointCircularSlider",
-              "ScreenName": "MidPointCircularSliderVc"
-            }
-          ]
+          "Title": "Circle Alarm Timer View",
+          "ScreenName": "CircleAlarmTimerViewActivity"
         }
       ]
     },
@@ -101,6 +87,16 @@
     {
       "Title": "Paper Onboarding",
       "ScreenName": "PaperOnboardingVc"
+    },
+    {
+      "Title": "Empty Screens",
+      "ScreenName": "MainListVc",
+      "data": [
+        {
+          "Title": "Empty Screens Load Sir",
+          "ScreenName": "EmptyScreensLoadSirActivity"
+        }
+      ]
     },
     {
       "Title": "Pull To Refresh",
