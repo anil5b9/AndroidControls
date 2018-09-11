@@ -31,10 +31,8 @@ public class ArcProgressStackViewActivity extends BaseActivity implements
         CompoundButton.OnCheckedChangeListener,
         SeekBar.OnSeekBarChangeListener {
 
-    private ControlsModelView controlsModelView;
-
     public final static int MODEL_COUNT = 4;
-
+    private ControlsModelView controlsModelView;
     // APSV
     private ArcProgressStackView mArcProgressStackView;
 

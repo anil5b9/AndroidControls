@@ -44,6 +44,10 @@ public class ControlsAdapter extends RecyclerView.Adapter<ControlsAdapter.Contro
         return mControlsModelViewArrayList.size();
     }
 
+    public interface OnItemClickListener {
+        void onItemClick(int position);
+    }
+
     public static class ControlsViewHolder extends RecyclerView.ViewHolder {
 
         TextView txtControlName;
@@ -60,10 +64,6 @@ public class ControlsAdapter extends RecyclerView.Adapter<ControlsAdapter.Contro
             });
         }
 
-    }
-
-    public interface OnItemClickListener {
-        void onItemClick(int position);
     }
 
 }

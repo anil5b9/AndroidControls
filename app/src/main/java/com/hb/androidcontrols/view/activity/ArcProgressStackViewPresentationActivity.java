@@ -26,7 +26,7 @@ public class ArcProgressStackViewPresentationActivity extends AppCompatActivity 
     private int mCounter = 0;
 
     private ArcProgressStackView mArcProgressStackView;
-    
+
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,7 +66,8 @@ public class ArcProgressStackViewPresentationActivity extends AppCompatActivity 
                 animation.addListener(this);
                 mCounter = 0;
 
-                for (final ArcProgressStackView.Model model : mArcProgressStackView.getModels()) model.setProgress(1);
+                for (final ArcProgressStackView.Model model : mArcProgressStackView.getModels())
+                    model.setProgress(1);
                 mArcProgressStackView.animateProgress();
             }
 

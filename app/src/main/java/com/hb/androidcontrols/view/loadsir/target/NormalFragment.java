@@ -28,9 +28,10 @@ public class NormalFragment extends Fragment {
 
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle
-            savedInstanceState) {
-        rootView = View.inflate(getActivity(), R.layout.empty_screens_load_sir_fragment_a_content, null);
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+
+        rootView = inflater.inflate(R.layout.empty_screens_load_sir_fragment_a_content, container, false);
+
         LoadSir loadSir = new LoadSir.Builder()
                 .addCallback(new CustomCallback())
                 .addCallback(new LoadingCallback())

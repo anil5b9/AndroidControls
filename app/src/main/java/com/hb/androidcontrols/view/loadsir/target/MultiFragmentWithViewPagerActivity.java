@@ -7,8 +7,12 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.View;
+import android.widget.TextView;
 
 import com.hb.androidcontrols.R;
+import com.hb.androidcontrols.core.BaseActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,7 +24,7 @@ import java.util.List;
  * Email:kingjavip@gmail.com
  */
 
-public class MultiFragmentWithViewPagerActivity extends AppCompatActivity {
+public class MultiFragmentWithViewPagerActivity extends BaseActivity {
     private List<Fragment> fragments = new ArrayList<>();
     private String[] tabTitles = {"Fragment A", "Fragment B"};
 
@@ -28,6 +32,9 @@ public class MultiFragmentWithViewPagerActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.empty_screens_load_sir_activity_fragment_viewpager);
+
+        updateTabBar("Multiple Fragment");
+
         ViewPager viewpager = (ViewPager) findViewById(R.id.viewpager);
         TabLayout tablayout = (TabLayout) findViewById(R.id.tablayout);
 
@@ -38,6 +45,17 @@ public class MultiFragmentWithViewPagerActivity extends AppCompatActivity {
         tablayout.setupWithViewPager(viewpager);
         tablayout.setTabMode(TabLayout.MODE_FIXED);
 
+    }
+
+    private void updateTabBar(String title) {
+        findViewById(R.id.btnBack).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+        TextView txtScreenTitle = findViewById(R.id.txtScreenTitle);
+        txtScreenTitle.setText(title);
     }
 
     private class PagerAdapter extends FragmentPagerAdapter {

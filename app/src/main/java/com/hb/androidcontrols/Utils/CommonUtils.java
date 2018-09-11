@@ -15,6 +15,8 @@ import java.io.InputStream;
 
 public class CommonUtils {
 
+    private static ProgressDialog mProgressDialog;
+
     public static String loadJSONFromAsset(Context context) {
         String json;
         try {
@@ -39,8 +41,6 @@ public class CommonUtils {
         }
         imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }
-
-    private static ProgressDialog mProgressDialog;
 
     public static boolean checkInternetConnection(Context mContext) {
 

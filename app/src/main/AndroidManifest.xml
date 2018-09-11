@@ -54,30 +54,133 @@
             android:name=".view.activity.CircleAlarmTimerViewActivity"
             android:screenOrientation="portrait" />
 
+        <!-- UITabbar -Navigation TabBar-->
+        <activity
+            android:name=".view.activity.NavigationTabBarActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.navigationtabbar.HorizontalCoordinatorNtbActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.navigationtabbar.HorizontalNtbActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.navigationtabbar.SamplesNtbActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.navigationtabbar.TopHorizontalNtbActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".view.navigationtabbar.VerticalNtbActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- UITabbar -Smart TabLayout-->
+        <activity
+            android:name=".view.activity.SmartTabLayoutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.smarttablayout.DemoActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".view.activity.SmartTabLayoutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.smarttablayout.DemoLikeMediumActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".view.activity.SmartTabLayoutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.smarttablayout.DemoRtlActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".view.activity.SmartTabLayoutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.smarttablayout.DemoTabWithNotificationMarkActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".view.activity.SmartTabLayoutActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- UITabbar -Folding TabBar-->
+        <activity
+            android:name=".view.activity.FoldingTabBarActivity"
+            android:screenOrientation="portrait" />
+
         <!-- Empty Screens - LoadSir-->
         <activity
-            android:name=".view.activity.EmptyScreensLoadSir_Activity"
+            android:name=".view.activity.EmptyScreensLoadSirActivity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name=".view.loadsir.target.NormalActivity"
-            android:screenOrientation="portrait" />
+            android:label="@string/app_name"
+            android:parentActivityName=".view.activity.EmptyScreensLoadSirActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
             android:name=".view.loadsir.target.ConvertorActivity"
-            android:screenOrientation="portrait" />
+            android:label="@string/app_name"
+            android:parentActivityName=".view.activity.EmptyScreensLoadSirActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
             android:name=".view.loadsir.target.FragmentSingleActivity"
-            android:screenOrientation="portrait" />
+            android:label="@string/app_name"
+            android:parentActivityName=".view.activity.EmptyScreensLoadSirActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
             android:name=".view.loadsir.target.ViewTargetActivity"
-            android:screenOrientation="portrait" />
+            android:label="@string/app_name"
+            android:parentActivityName=".view.activity.EmptyScreensLoadSirActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
             android:name=".view.loadsir.target.MultiFragmentWithViewPagerActivity"
-            android:screenOrientation="portrait" />
+            android:label="@string/app_name"
+            android:parentActivityName=".view.activity.EmptyScreensLoadSirActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
             android:name=".view.loadsir.target.MultiFragmentActivity"
-            android:screenOrientation="portrait" />
+            android:label="@string/app_name"
+            android:parentActivityName=".view.activity.EmptyScreensLoadSirActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
         <activity
             android:name=".view.loadsir.target.PlaceholderActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".view.activity.EmptyScreensLoadSirActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- Empty Screens - Empty Screen-->
+        <activity
+            android:name=".view.activity.EmptyViewActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- Pull To Refresh - Pull To Make Soup-->
+        <activity
+            android:name=".view.activity.PullToMakeSoupActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- Pull To Refresh - Wave Swipe Refresh-->
+        <activity
+            android:name=".view.activity.WaveSwipeRefreshActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- Tutorial - Paper OnBoarding-->
+        <activity
+            android:name=".view.activity.PaperOnBoardingActivity"
             android:screenOrientation="portrait" />
 
     </application>

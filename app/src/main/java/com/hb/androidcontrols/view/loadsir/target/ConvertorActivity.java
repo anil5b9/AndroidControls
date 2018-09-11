@@ -3,10 +3,12 @@ package com.hb.androidcontrols.view.loadsir.target;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.hb.androidcontrols.R;
+import com.hb.androidcontrols.core.BaseActivity;
 import com.hb.androidcontrols.view.loadsir.PostUtil;
 import com.hb.androidcontrols.view.loadsir.callback.EmptyCallback;
 import com.hb.androidcontrols.view.loadsir.callback.ErrorCallback;
@@ -29,7 +31,7 @@ import java.util.Random;
  * Email:kingjavip@gmail.com
  */
 
-public class ConvertorActivity extends AppCompatActivity {
+public class ConvertorActivity extends BaseActivity {
 
     private static final int SUCCESS_CODE = 0x00;
     private static final int ERROR_CODE = 0x01;
@@ -40,13 +42,18 @@ public class ConvertorActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.empty_screens_load_sir_activity_activity_convertor);
+
+        updateTabBar("Converter Activity");
+
+        LinearLayout ll_root_activity = findViewById(R.id.ll_root_activity);
+
         LoadSir loadSir = new LoadSir.Builder()
                 .addCallback(new LoadingCallback())
                 .addCallback(new EmptyCallback())
                 .addCallback(new ErrorCallback())
                 .setDefaultCallback(LoadingCallback.class)
                 .build();
-        loadService = loadSir.register(this, new Callback.OnReloadListener() {
+        loadService = loadSir.register(ll_root_activity, new Callback.OnReloadListener() {
             @Override
             public void onReload(View v) {
                 loadService.showCallback(LoadingCallback.class);
@@ -57,7 +64,7 @@ public class ConvertorActivity extends AppCompatActivity {
             public Class<? extends Callback> map(HttpResult httpResult) {
                 Class<? extends Callback> resultCode = SuccessCallback.class;
                 switch (httpResult.getResultCode()) {
-                    case SUCCESS_CODE://成功回调
+                    case SUCCESS_CODE:
                         if (httpResult.getData().size() == 0) {
                             resultCode = EmptyCallback.class;
                         } else {
@@ -74,9 +81,6 @@ public class ConvertorActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                // do net here...
-
-                //callback
                 loadService.showWithConvertor(mHttpResult);
             }
         }, 500);
@@ -99,4 +103,16 @@ public class ConvertorActivity extends AppCompatActivity {
             return data;
         }
     }
+
+    private void updateTabBar(String title) {
+        findViewById(R.id.btnBack).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+        TextView txtScreenTitle = findViewById(R.id.txtScreenTitle);
+        txtScreenTitle.setText(title);
+    }
+
 }

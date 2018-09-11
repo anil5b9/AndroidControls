@@ -39,12 +39,16 @@
       "ScreenName": "MainListVc",
       "data": [
         {
-          "Title": "Animated TabBar",
-          "ScreenName": "AnimatedTabbarVc"
+          "Title": "Navigation TabBar",
+          "ScreenName": "NavigationTabBarActivity"
         },
         {
-          "Title": "MinimalTabBar",
-          "ScreenName": "MinimalTabVc"
+          "Title": "Smart TabLayout",
+          "ScreenName": "SmartTabLayoutActivity"
+        },
+        {
+          "Title": "Folding TabBar",
+          "ScreenName": "FoldingTabBarActivity"
         }
       ]
     },
@@ -85,8 +89,8 @@
       ]
     },
     {
-      "Title": "Paper Onboarding",
-      "ScreenName": "PaperOnboardingVc"
+      "Title": "Paper OnBoarding",
+      "ScreenName": "PaperOnBoardingActivity"
     },
     {
       "Title": "Empty Screens",
@@ -95,6 +99,10 @@
         {
           "Title": "Empty Screens Load Sir",
           "ScreenName": "EmptyScreensLoadSirActivity"
+        },
+        {
+          "Title": "Empty View",
+          "ScreenName": "EmptyViewActivity"
         }
       ]
     },
@@ -103,12 +111,12 @@
       "ScreenName": "MainListVc",
       "data": [
         {
-          "Title": "PullToMakeSoup",
-          "ScreenName": "PullToMakeSoupVc"
+          "Title": "Wave Swipe Refresh",
+          "ScreenName": "WaveSwipeRefreshActivity"
         },
         {
-          "Title": "PullToBounce",
-          "ScreenName": "PullToMakeSoupVc"
+          "Title": "Pull To Make Soup",
+          "ScreenName": "PullToMakeSoupActivity"
         }
       ]
     }
