@@ -57,20 +57,12 @@
       "ScreenName": "MainListVc",
       "data": [
         {
-          "Title": "CalendarLayoutsDemonstration",
-          "ScreenName": "CalendarLayoutsDemonstrationVc"
+          "Title": "Huanghaibin CalendarView",
+          "ScreenName": "HuanghaibinCalendarViewActivity"
         },
         {
-          "Title": "TestingResizing/Orientation",
-          "ScreenName": "ResizingOrientaionVc"
-        },
-        {
-          "Title": "PersianCalendar",
-          "ScreenName": "PersianCalendarVc"
-        },
-        {
-          "Title": "RangeSelection",
-          "ScreenName": "RangeSelectionVc"
+          "Title": "Cosmo Calendar",
+          "ScreenName": "CosmoCalendarActivity"
         }
       ]
     },

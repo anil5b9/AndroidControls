@@ -104,9 +104,23 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
 
+        <!-- Calender -Huanghaibin CalendarView-->
+        <!--<activity android:name=".view.activity.CosmoCalendarActivity"
+            android:screenOrientation="portrait" />-->
+
+        <!-- Calender -CosmoCalendar-->
+        <activity android:name=".view.activity.CosmoCalendarActivity"
+            android:label="Cosmo Calendar"
+            android:screenOrientation="portrait" />
+
         <!-- UITabbar -Folding TabBar-->
         <activity
             android:name=".view.activity.FoldingTabBarActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- Tutorial - Paper OnBoarding-->
+        <activity
+            android:name=".view.activity.PaperOnBoardingActivity"
             android:screenOrientation="portrait" />
 
         <!-- Empty Screens - LoadSir-->
@@ -176,11 +190,6 @@
         <!-- Pull To Refresh - Wave Swipe Refresh-->
         <activity
             android:name=".view.activity.WaveSwipeRefreshActivity"
-            android:screenOrientation="portrait" />
-
-        <!-- Tutorial - Paper OnBoarding-->
-        <activity
-            android:name=".view.activity.PaperOnBoardingActivity"
             android:screenOrientation="portrait" />
 
     </application>

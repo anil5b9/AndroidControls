@@ -4,7 +4,7 @@ android {
     compileSdkVersion 27
     defaultConfig {
         applicationId "com.hb.androidcontrols"
-        minSdkVersion 16
+        minSdkVersion 17
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
@@ -67,6 +67,12 @@ dependencies {
     //UITabbar  --> Navigation TabBar
     implementation 'devlight.io:navigationtabbar:1.2.5'
 
+    // Calender  --> Huanghaibin CalendarView
+    implementation 'com.haibin:calendarview:3.4.4'
+
+    // Calender  --> CosmoCalendar
+    implementation 'com.github.applikeysolutions:cosmocalendar:1.0.4'
+
     implementation 'com.github.bumptech.glide:glide:4.8.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
 
@@ -81,7 +87,5 @@ dependencies {
 
     // Pull To Refresh  --> Pull To Make Soup
     implementation 'com.github.recruit-lifestyle:WaveSwipeRefreshLayout:1.6'
-
-
 
 }
