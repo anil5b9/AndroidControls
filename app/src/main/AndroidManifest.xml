@@ -105,8 +105,18 @@
             android:theme="@style/AppTheme.NoActionBar" />
 
         <!-- Calender -Huanghaibin CalendarView-->
-        <!--<activity android:name=".view.activity.CosmoCalendarActivity"
-            android:screenOrientation="portrait" />-->
+        <activity android:name=".view.activity.HuanghaibinCalendarViewActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".view.calenderview.meizu.MeiZuActivity" android:screenOrientation="portrait"  />
+        <activity android:name=".view.calenderview.index.IndexActivity" android:screenOrientation="portrait" />
+        <activity android:name=".view.calenderview.simple.SimpleActivity" android:screenOrientation="portrait" />
+        <activity android:name=".view.calenderview.colorful.ColorfulActivity" android:screenOrientation="portrait" />
+        <activity android:name=".view.calenderview.solay.SolarActivity" android:screenOrientation="portrait" />
+        <activity android:name=".view.calenderview.single.SingleActivity" android:screenOrientation="portrait" />
+        <activity android:name=".view.calenderview.progress.ProgressActivity" android:screenOrientation="portrait" />
+        <activity android:name=".view.calenderview.custom.CustomActivity" android:screenOrientation="portrait" />
+        <activity android:name=".view.calenderview.pager.ViewPagerActivity" android:screenOrientation="portrait" />
+        <activity android:name=".view.calenderview.TestActivity" android:screenOrientation="portrait" />
 
         <!-- Calender -CosmoCalendar-->
         <activity android:name=".view.activity.CosmoCalendarActivity"

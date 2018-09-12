@@ -7,16 +7,16 @@
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:background="@color/primary"
         android:layout_height="wrap_content"
+        android:background="@color/primary"
         android:minHeight="?attr/actionBarSize" />
 
-    <com.applikeysolutions.cosmocalendar.view.CalendarView
+    <com.haibin.calendarview.CalendarView
         android:id="@+id/calendar_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/ll_settings"
-        android:layout_below="@id/toolbar"/>
+        android:layout_below="@id/toolbar" />
 
     <LinearLayout
         android:id="@+id/ll_settings"
