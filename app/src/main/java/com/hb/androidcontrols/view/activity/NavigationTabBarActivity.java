@@ -1,6 +1,5 @@
 package com.hb.androidcontrols.view.activity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.view.ViewCompat;
@@ -9,6 +8,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.hb.androidcontrols.R;
+import com.hb.androidcontrols.core.BaseActivity;
 import com.hb.androidcontrols.model.ControlsModelView;
 import com.hb.androidcontrols.view.navigationtabbar.HorizontalCoordinatorNtbActivity;
 import com.hb.androidcontrols.view.navigationtabbar.HorizontalNtbActivity;
@@ -16,7 +16,7 @@ import com.hb.androidcontrols.view.navigationtabbar.SamplesNtbActivity;
 import com.hb.androidcontrols.view.navigationtabbar.TopHorizontalNtbActivity;
 import com.hb.androidcontrols.view.navigationtabbar.VerticalNtbActivity;
 
-public class NavigationTabBarActivity extends Activity implements View.OnClickListener {
+public class NavigationTabBarActivity extends BaseActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

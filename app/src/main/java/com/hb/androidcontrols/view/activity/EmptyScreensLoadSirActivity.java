@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.hb.androidcontrols.R;
+import com.hb.androidcontrols.core.BaseActivity;
 import com.hb.androidcontrols.model.ControlsModelView;
 import com.hb.androidcontrols.view.loadsir.callback.CustomCallback;
 import com.hb.androidcontrols.view.loadsir.callback.EmptyCallback;
@@ -22,7 +23,7 @@ import com.hb.androidcontrols.view.loadsir.target.PlaceholderActivity;
 import com.hb.androidcontrols.view.loadsir.target.ViewTargetActivity;
 import com.kingja.loadsir.core.LoadSir;
 
-public class EmptyScreensLoadSirActivity extends AppCompatActivity {
+public class EmptyScreensLoadSirActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -35,8 +35,8 @@ public class MultiFragmentWithViewPagerActivity extends BaseActivity {
 
         updateTabBar("Multiple Fragment");
 
-        ViewPager viewpager = (ViewPager) findViewById(R.id.viewpager);
-        TabLayout tablayout = (TabLayout) findViewById(R.id.tablayout);
+        ViewPager viewpager =  findViewById(R.id.viewpager);
+        TabLayout tablayout = findViewById(R.id.tablayout);
 
         fragments.add(new FragmentA());
         fragments.add(new FragmentB());

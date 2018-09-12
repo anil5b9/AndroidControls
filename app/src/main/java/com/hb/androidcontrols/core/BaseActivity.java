@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.hb.androidcontrols.R;
 import com.hb.androidcontrols.Utils.CommonUtils;
+import com.hb.androidcontrols.view.activity.MainControlsListActivity;
 
 public class BaseActivity extends AppCompatActivity {
 
@@ -53,7 +54,11 @@ public class BaseActivity extends AppCompatActivity {
     @Override
     public void finish() {
         super.finish();
-        overridePendingTransition(R.anim.activity_left_in, R.anim.activity_right_out);
+        if (this instanceof MainControlsListActivity) {
+
+        }else {
+            overridePendingTransition(R.anim.activity_left_in, R.anim.activity_right_out);
+        }
     }
 
 }

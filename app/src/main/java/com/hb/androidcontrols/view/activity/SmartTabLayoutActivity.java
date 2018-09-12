@@ -14,10 +14,11 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.hb.androidcontrols.R;
+import com.hb.androidcontrols.core.BaseActivity;
 import com.hb.androidcontrols.model.ControlsModelView;
 import com.hb.androidcontrols.view.smarttablayout.Demo;
 
-public class SmartTabLayoutActivity extends AppCompatActivity implements AbsListView.OnItemClickListener {
+public class SmartTabLayoutActivity extends BaseActivity implements AbsListView.OnItemClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,10 +46,10 @@ public class SmartTabLayoutActivity extends AppCompatActivity implements AbsList
             }
         });
 
-        ControlsModelView controlsModelView = (ControlsModelView) getIntent().getSerializableExtra("ControlData");
+     //   ControlsModelView controlsModelView = (ControlsModelView) getIntent().getSerializableExtra("ControlData");
 
         TextView txtScreenTitle = findViewById(R.id.txtScreenTitle);
-        txtScreenTitle.setText(controlsModelView.title);
+        txtScreenTitle.setText("Smart TabLayout");
     }
 
     @Override
