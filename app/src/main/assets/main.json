@@ -67,20 +67,6 @@
       ]
     },
     {
-      "Title": "Image Loading",
-      "ScreenName": "MainListVc",
-      "data": [
-        {
-          "Title": "FaceAware",
-          "ScreenName": "FaceAwareVc"
-        },
-        {
-          "Title": "KingFisher",
-          "ScreenName": "KingFisherVc"
-        }
-      ]
-    },
-    {
       "Title": "Paper OnBoarding",
       "ScreenName": "PaperOnBoardingActivity"
     },
