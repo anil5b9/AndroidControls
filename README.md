@@ -1,7 +1,8 @@
 List of Android UI/UX Libraries
 
 ==================
-A curated list of awesome iOS UI/UX libraries written in swift 4.0 and above.
+
+A curated list of awesome Android UI/UX libraries written in java
 
 ## Index
 * [Progress Bar](AndroidControls/readme_pages/activity_indicator.md)
