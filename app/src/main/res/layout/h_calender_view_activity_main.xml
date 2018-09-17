@@ -10,7 +10,6 @@
     tools:context="com.haibin.calendarviewproject.HuanghaibinCalendarViewActivity"
     tools:ignore="RtlHardcoded,HardcodedText,RtlSymmetry,SmallSp">
 
-
     <RelativeLayout
         android:id="@+id/rl_tool"
         android:layout_width="match_parent"

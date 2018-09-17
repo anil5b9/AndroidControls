@@ -195,62 +195,62 @@ public class HuanghaibinCalendarViewActivity extends BaseActivity implements
         Map<String, Calendar> map = new HashMap<>();
         for (int y = 1997; y < 2082; y++) {
             for (int m = 1; m <= 12; m++) {
-                map.put(getSchemeCalendar(y, m, 1, 0xFF40db25, "假").toString(),
-                        getSchemeCalendar(y, m, 1, 0xFF40db25, "假"));
-                map.put(getSchemeCalendar(y, m, 2, 0xFFe69138, "游").toString(),
-                        getSchemeCalendar(y, m, 2, 0xFFe69138, "游"));
-                map.put(getSchemeCalendar(y, m, 3, 0xFFdf1356, "事").toString(),
-                        getSchemeCalendar(y, m, 3, 0xFFdf1356, "事"));
-                map.put(getSchemeCalendar(y, m, 4, 0xFFaacc44, "车").toString(),
-                        getSchemeCalendar(y, m, 4, 0xFFaacc44, "车"));
-                map.put(getSchemeCalendar(y, m, 5, 0xFFbc13f0, "驾").toString(),
-                        getSchemeCalendar(y, m, 5, 0xFFbc13f0, "驾"));
-                map.put(getSchemeCalendar(y, m, 6, 0xFF542261, "记").toString(),
-                        getSchemeCalendar(y, m, 6, 0xFF542261, "记"));
-                map.put(getSchemeCalendar(y, m, 7, 0xFF4a4bd2, "会").toString(),
-                        getSchemeCalendar(y, m, 7, 0xFF4a4bd2, "会"));
-                map.put(getSchemeCalendar(y, m, 8, 0xFFe69138, "车").toString(),
-                        getSchemeCalendar(y, m, 8, 0xFFe69138, "车"));
-                map.put(getSchemeCalendar(y, m, 9, 0xFF542261, "考").toString(),
-                        getSchemeCalendar(y, m, 9, 0xFF542261, "考"));
-                map.put(getSchemeCalendar(y, m, 10, 0xFF87af5a, "记").toString(),
-                        getSchemeCalendar(y, m, 10, 0xFF87af5a, "记"));
-                map.put(getSchemeCalendar(y, m, 11, 0xFF40db25, "会").toString(),
-                        getSchemeCalendar(y, m, 11, 0xFF40db25, "会"));
-                map.put(getSchemeCalendar(y, m, 12, 0xFFcda1af, "游").toString(),
-                        getSchemeCalendar(y, m, 12, 0xFFcda1af, "游"));
-                map.put(getSchemeCalendar(y, m, 13, 0xFF95af1a, "事").toString(),
-                        getSchemeCalendar(y, m, 13, 0xFF95af1a, "事"));
-                map.put(getSchemeCalendar(y, m, 14, 0xFF33aadd, "学").toString(),
-                        getSchemeCalendar(y, m, 14, 0xFF33aadd, "学"));
-                map.put(getSchemeCalendar(y, m, 15, 0xFF1aff1a, "码").toString(),
-                        getSchemeCalendar(y, m, 15, 0xFF1aff1a, "码"));
-                map.put(getSchemeCalendar(y, m, 16, 0xFF22acaf, "驾").toString(),
-                        getSchemeCalendar(y, m, 16, 0xFF22acaf, "驾"));
-                map.put(getSchemeCalendar(y, m, 17, 0xFF99a6fa, "校").toString(),
-                        getSchemeCalendar(y, m, 17, 0xFF99a6fa, "校"));
-                map.put(getSchemeCalendar(y, m, 18, 0xFFe69138, "车").toString(),
-                        getSchemeCalendar(y, m, 18, 0xFFe69138, "车"));
-                map.put(getSchemeCalendar(y, m, 19, 0xFF40db25, "码").toString(),
-                        getSchemeCalendar(y, m, 19, 0xFF40db25, "码"));
-                map.put(getSchemeCalendar(y, m, 20, 0xFFe69138, "火").toString(),
-                        getSchemeCalendar(y, m, 20, 0xFFe69138, "火"));
-                map.put(getSchemeCalendar(y, m, 21, 0xFF40db25, "假").toString(),
-                        getSchemeCalendar(y, m, 21, 0xFF40db25, "假"));
-                map.put(getSchemeCalendar(y, m, 22, 0xFF99a6fa, "记").toString(),
-                        getSchemeCalendar(y, m, 22, 0xFF99a6fa, "记"));
-                map.put(getSchemeCalendar(y, m, 23, 0xFF33aadd, "假").toString(),
-                        getSchemeCalendar(y, m, 23, 0xFF33aadd, "假"));
-                map.put(getSchemeCalendar(y, m, 24, 0xFF40db25, "校").toString(),
-                        getSchemeCalendar(y, m, 24, 0xFF40db25, "校"));
-                map.put(getSchemeCalendar(y, m, 25, 0xFF1aff1a, "假").toString(),
-                        getSchemeCalendar(y, m, 25, 0xFF1aff1a, "假"));
-                map.put(getSchemeCalendar(y, m, 26, 0xFF40db25, "议").toString(),
-                        getSchemeCalendar(y, m, 26, 0xFF40db25, "议"));
-                map.put(getSchemeCalendar(y, m, 27, 0xFF95af1a, "假").toString(),
-                        getSchemeCalendar(y, m, 27, 0xFF95af1a, "假"));
-                map.put(getSchemeCalendar(y, m, 28, 0xFF40db25, "码").toString(),
-                        getSchemeCalendar(y, m, 28, 0xFF40db25, "码"));
+                map.put(getSchemeCalendar(y, m, 1, 0xFF40db25, "1").toString(),
+                        getSchemeCalendar(y, m, 1, 0xFF40db25, "1"));
+                map.put(getSchemeCalendar(y, m, 2, 0xFFe69138, "2").toString(),
+                        getSchemeCalendar(y, m, 2, 0xFFe69138, "2"));
+                map.put(getSchemeCalendar(y, m, 3, 0xFFdf1356, "3").toString(),
+                        getSchemeCalendar(y, m, 3, 0xFFdf1356, "3"));
+                map.put(getSchemeCalendar(y, m, 4, 0xFFaacc44, "4").toString(),
+                        getSchemeCalendar(y, m, 4, 0xFFaacc44, "4"));
+                map.put(getSchemeCalendar(y, m, 5, 0xFFbc13f0, "5").toString(),
+                        getSchemeCalendar(y, m, 5, 0xFFbc13f0, "5"));
+                map.put(getSchemeCalendar(y, m, 6, 0xFF542261, "6").toString(),
+                        getSchemeCalendar(y, m, 6, 0xFF542261, "6"));
+                map.put(getSchemeCalendar(y, m, 7, 0xFF4a4bd2, "7").toString(),
+                        getSchemeCalendar(y, m, 7, 0xFF4a4bd2, "7"));
+                map.put(getSchemeCalendar(y, m, 8, 0xFFe69138, "8").toString(),
+                        getSchemeCalendar(y, m, 8, 0xFFe69138, "8"));
+                map.put(getSchemeCalendar(y, m, 9, 0xFF542261, "9").toString(),
+                        getSchemeCalendar(y, m, 9, 0xFF542261, "9"));
+                map.put(getSchemeCalendar(y, m, 10, 0xFF87af5a, "10").toString(),
+                        getSchemeCalendar(y, m, 10, 0xFF87af5a, "10"));
+                map.put(getSchemeCalendar(y, m, 11, 0xFF40db25, "11").toString(),
+                        getSchemeCalendar(y, m, 11, 0xFF40db25, "11"));
+                map.put(getSchemeCalendar(y, m, 12, 0xFFcda1af, "12").toString(),
+                        getSchemeCalendar(y, m, 12, 0xFFcda1af, "12"));
+                map.put(getSchemeCalendar(y, m, 13, 0xFF95af1a, "13").toString(),
+                        getSchemeCalendar(y, m, 13, 0xFF95af1a, "13"));
+                map.put(getSchemeCalendar(y, m, 14, 0xFF33aadd, "14").toString(),
+                        getSchemeCalendar(y, m, 14, 0xFF33aadd, "14"));
+                map.put(getSchemeCalendar(y, m, 15, 0xFF1aff1a, "15").toString(),
+                        getSchemeCalendar(y, m, 15, 0xFF1aff1a, "15"));
+                map.put(getSchemeCalendar(y, m, 16, 0xFF22acaf, "16").toString(),
+                        getSchemeCalendar(y, m, 16, 0xFF22acaf, "16"));
+                map.put(getSchemeCalendar(y, m, 17, 0xFF99a6fa, "17").toString(),
+                        getSchemeCalendar(y, m, 17, 0xFF99a6fa, "17"));
+                map.put(getSchemeCalendar(y, m, 18, 0xFFe69138, "18").toString(),
+                        getSchemeCalendar(y, m, 18, 0xFFe69138, "18"));
+                map.put(getSchemeCalendar(y, m, 19, 0xFF40db25, "19").toString(),
+                        getSchemeCalendar(y, m, 19, 0xFF40db25, "19"));
+                map.put(getSchemeCalendar(y, m, 20, 0xFFe69138, "20").toString(),
+                        getSchemeCalendar(y, m, 20, 0xFFe69138, "20"));
+                map.put(getSchemeCalendar(y, m, 21, 0xFF40db25, "21").toString(),
+                        getSchemeCalendar(y, m, 21, 0xFF40db25, "21"));
+                map.put(getSchemeCalendar(y, m, 22, 0xFF99a6fa, "22").toString(),
+                        getSchemeCalendar(y, m, 22, 0xFF99a6fa, "22"));
+                map.put(getSchemeCalendar(y, m, 23, 0xFF33aadd, "23").toString(),
+                        getSchemeCalendar(y, m, 23, 0xFF33aadd, "23"));
+                map.put(getSchemeCalendar(y, m, 24, 0xFF40db25, "24").toString(),
+                        getSchemeCalendar(y, m, 24, 0xFF40db25, "24"));
+                map.put(getSchemeCalendar(y, m, 25, 0xFF1aff1a, "25").toString(),
+                        getSchemeCalendar(y, m, 25, 0xFF1aff1a, "25"));
+                map.put(getSchemeCalendar(y, m, 26, 0xFF40db25, "26").toString(),
+                        getSchemeCalendar(y, m, 26, 0xFF40db25, "26"));
+                map.put(getSchemeCalendar(y, m, 27, 0xFF95af1a, "27").toString(),
+                        getSchemeCalendar(y, m, 27, 0xFF95af1a, "27"));
+                map.put(getSchemeCalendar(y, m, 28, 0xFF40db25, "28").toString(),
+                        getSchemeCalendar(y, m, 28, 0xFF40db25, "28"));
             }
         }
 
@@ -361,22 +361,15 @@ public class HuanghaibinCalendarViewActivity extends BaseActivity implements
     @SuppressLint("SetTextI18n")
     @Override
     public void onCalendarSelect(Calendar calendar, boolean isClick) {
-        //Log.e("onDateSelected", "  -- " + calendar.getYear() + "  --  " + calendar.getMonth() + "  -- " + calendar.getDay());
         mTextLunar.setVisibility(View.VISIBLE);
         mTextYear.setVisibility(View.VISIBLE);
-        mTextMonthDay.setText(calendar.getMonth() + "月" + calendar.getDay() + "日");
+        mTextMonthDay.setText("Month " + calendar.getMonth() + " Day " + calendar.getDay());
         mTextYear.setText(String.valueOf(calendar.getYear()));
         mTextLunar.setText(calendar.getLunar());
         mYear = calendar.getYear();
         if (isClick) {
             Toast.makeText(this, getCalendarText(calendar), Toast.LENGTH_SHORT).show();
         }
-        Log.e("onDateSelected", "  -- " + calendar.getYear() +
-                "  --  " + calendar.getMonth() +
-                "  -- " + calendar.getDay() +
-                "  --  " + isClick + "  --   " + calendar.getScheme());
-        Log.e("onDateSelected", "  " + mCalendarView.getSelectedCalendar().getScheme() +
-                "  --  " + mCalendarView.getSelectedCalendar().isCurrentDay());
     }
 
     @Override
@@ -390,13 +383,14 @@ public class HuanghaibinCalendarViewActivity extends BaseActivity implements
     }
 
     private static String getCalendarText(Calendar calendar) {
-        return String.format("新历%s \n 农历%s \n 公历节日：%s \n 农历节日：%s \n 节气：%s \n 是否闰月：%s",
-                calendar.getMonth() + "月" + calendar.getDay() + "日",
-                calendar.getLunarCakendar().getMonth() + "月" + calendar.getLunarCakendar().getDay() + "日",
-                TextUtils.isEmpty(calendar.getGregorianFestival()) ? "无" : calendar.getGregorianFestival(),
-                TextUtils.isEmpty(calendar.getTraditionFestival()) ? "无" : calendar.getTraditionFestival(),
-                TextUtils.isEmpty(calendar.getSolarTerm()) ? "无" : calendar.getSolarTerm(),
-                calendar.getLeapMonth() == 0 ? "否" : String.format("闰%s月", calendar.getLeapMonth()));
+        return String.format("The new calendar%s \n Lunar calendar%s \n Gregorian Festival：%s \n \n" +
+                        "Lunar New Year holiday：%s \n 节气：%s \n Whether leap month：%s",
+                " Month " + calendar.getMonth() + " Day " + calendar.getDay(),
+                " Month" + calendar.getLunarCakendar().getMonth() + " Day " + calendar.getLunarCakendar().getDay(),
+                TextUtils.isEmpty(calendar.getGregorianFestival()) ? "no" : calendar.getGregorianFestival(),
+                TextUtils.isEmpty(calendar.getTraditionFestival()) ? "no" : calendar.getTraditionFestival(),
+                TextUtils.isEmpty(calendar.getSolarTerm()) ? "no" : calendar.getSolarTerm(),
+                calendar.getLeapMonth() == 0 ? "no" : String.format("Intercalary%sMonth", calendar.getLeapMonth()));
     }
 
     @SuppressLint("SetTextI18n")
