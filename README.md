@@ -1,7 +1,5 @@
-List of Android UI/UX Libraries
-
+List of Android UI/UX Librarie
 ==================
-
 A curated list of awesome Android UI/UX libraries written in java
 
 ## Index
